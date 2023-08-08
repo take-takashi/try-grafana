@@ -1,0 +1,11 @@
+{
+  "name": "grafana",
+  "remoteUser": "vscode",
+  "image": "grafana/grafana-oss",
+  "customizations": {
+    "vscode": {
+      "extensions": [],
+      "settings": {}
+    }
+  }
+}
