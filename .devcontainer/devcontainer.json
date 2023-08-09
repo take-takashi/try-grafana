@@ -1,11 +1,14 @@
 {
   "name": "grafana",
   "remoteUser": "vscode",
-  "image": "grafana/grafana-oss",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.11-bullseye",
   "customizations": {
     "vscode": {
       "extensions": [],
-      "settings": {}
+      "settings": {},
+      "features": {
+        "ghcr.io/devcontainers-contrib/features/tempo:1": {}
+      }
     }
   }
 }
